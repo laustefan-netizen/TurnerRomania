@@ -1,0 +1,28 @@
+# === NU URCA NICIODATA DATE MEDICALE ===
+# Blocaje defensive. Dosarul medical al familiei nu are ce cauta intr-un repo public.
+Analize/
+analize/
+Studii/
+studii/
+*.pdf
+*-plan-urmarire*
+*literature-review*
+*cariotip*
+*Cariotip*
+
+# fisiere de sistem
+Thumbs.db
+desktop.ini
+.DS_Store
+._*
+
+# editoare
+.vscode/
+.idea/
+*.swp
+*~
+
+# temporare
+temporary screenshots/
+*.log
+node_modules/
