@@ -266,6 +266,7 @@ ul.plain li{padding-left:26px; position:relative; max-width:66ch; color:var(--in
 ul.plain li::before{content:""; position:absolute; left:0; top:.58em; width:8px; height:8px; border-radius:2px; background:var(--teal); transform:rotate(45deg);}
 ul.plain b{color:var(--ink); font-weight:700;}
 
+.ext{font-size:.72em; color:var(--ink-faint); vertical-align:super; margin-left:1px; font-weight:400;}
 .source-note{font-size:.85rem; color:var(--ink-faint); border-top:1px dashed var(--line); margin-top:var(--s-3); padding-top:14px; max-width:82ch;}
 
 /* timeline */
@@ -962,6 +963,7 @@ footer.site .wrap{padding-top:var(--s-5); padding-bottom:var(--s-4);}
           <h3>Cu material de cromozom Y</h3>
           <p>Pe lângă linia 45,X există o linie celulară cu material dintr-un cromozom Y, complet sau fragmentar, de exemplu 45,X/46,XY. Ghidul estimează o prevalență de 3–15 la 100.000 de nou-născuți pentru acest grup de cariotipuri.</p>
           <p>Profilul are și plusuri, și minusuri. Ghidul notează cea mai mică incidență a bolii tiroidiene autoimune, a hipoacuziei severe și a coarctației de aortă. În schimb, prezența materialului Y aduce în discuție riscul de gonadoblastom, motiv pentru care ghidul recomandă o decizie individualizată privind gonadectomia, nu o regulă automată.</p>
+          <p>O confuzie frecventă merită lămurită aici. Gena SRY ține de diferențierea sexuală, adică de traseul pe care se dezvoltă gonada, și nu este același lucru cu riscul tumoral. Riscul de gonadoblastom este legat de materialul de cromozom Y în ansamblu, iar locusul asociat se află în regiunea centromerică și pericentromerică, deci un rezultat SRY pozitiv sau negativ nu descrie singur acest risc. Evaluarea se face pe cariotipul complet și pe testările suplimentare, împreună cu echipa medicală.</p>
         </div>
       </div>
 
@@ -1113,9 +1115,9 @@ footer.site .wrap{padding-top:var(--s-5); padding-bottom:var(--s-4);}
         <div class="gl-item"><div class="gl-term">Isocromozom</div><div class="gl-def">Un cromozom la care unul dintre brațe este dublat, iar celălalt lipsește. Isocromozomul Xq are brațul lung dublat și brațul scurt absent.</div></div>
         <div class="gl-item"><div class="gl-term">Cromozom inelar</div><div class="gl-def">Un cromozom ale cărui capete s-au unit și au format un inel, cu pierdere de material genetic în proces.</div></div>
         <div class="gl-item"><div class="gl-term">FISH <em>hibridizare fluorescentă in situ</em></div><div class="gl-def">Tehnică de laborator care marchează cu fluorescență o secvență anume de ADN. Se folosește, de exemplu, ca să se verifice dacă există material de cromozom Y pe care cariotipul obișnuit nu îl arată clar.</div></div>
-        <div class="gl-item"><div class="gl-term">SRY</div><div class="gl-def">O genă aflată în mod normal pe cromozomul Y, care declanșează dezvoltarea testiculară. Prezența ei se verifică atunci când în cariotip apare material de cromozom Y.</div></div>
+        <div class="gl-item"><div class="gl-term">SRY</div><div class="gl-def">O genă aflată în mod normal pe cromozomul Y, care pornește diferențierea gonadei pe traseul testicular. SRY ține de diferențierea sexuală, nu de riscul tumoral. Riscul de gonadoblastom este legat de materialul de cromozom Y în ansamblu, iar locusul asociat gonadoblastomului se află în regiunea centromerică și pericentromerică a cromozomului Y, deci prezența sau absența SRY nu descrie singură acest risc.</div></div>
         <div class="gl-item"><div class="gl-term">XIST</div><div class="gl-def">Gena care inactivează unul dintre cei doi cromozomi X. În varianta cu cromozom X inelar, contează dacă această genă își păstrează sau nu funcția.</div></div>
-        <div class="gl-item"><div class="gl-term">Gonadoblastom</div><div class="gl-def">O tumoră care se poate dezvolta în gonadele disgenetice la persoanele care au material de cromozom Y. E de regulă benignă, dar se poate transforma, motiv pentru care intră în discuția despre gonadectomie.</div></div>
+        <div class="gl-item"><div class="gl-term">Gonadoblastom</div><div class="gl-def">O tumoră care se poate dezvolta în gonadele disgenetice la persoanele care au material de cromozom Y. E de regulă benignă, dar se poate transforma, motiv pentru care intră în discuția despre gonadectomie. Riscul este asociat cu materialul de cromozom Y în ansamblu, în special cu regiunea centromerică și pericentromerică, nu cu gena SRY luată separat.</div></div>
         <div class="gl-item"><div class="gl-term">Gonadectomie</div><div class="gl-def">Operația de îndepărtare a gonadelor. În variantele cu material Y, momentul și oportunitatea ei se decid individual, de o echipă multidisciplinară.</div></div>
         <div class="gl-item"><div class="gl-term">Disgenezie gonadală</div><div class="gl-def">Dezvoltare incompletă a gonadelor, care nu își îndeplinesc funcția hormonală și reproductivă obișnuită.</div></div>
         <div class="gl-item"><div class="gl-term">Insuficiență ovariană</div><div class="gl-def">Oprirea sau reducerea marcată a funcției ovariene. În sindromul Turner e frecventă și explică de ce pubertatea are nevoie, de obicei, de sprijin hormonal.</div></div>
@@ -1130,7 +1132,7 @@ footer.site .wrap{padding-top:var(--s-5); padding-bottom:var(--s-4);}
         <div class="gl-item"><div class="gl-term">Hipoacuzie neurosenzorială</div><div class="gl-def">Scăderea auzului cauzată de urechea internă sau de nervul auditiv, spre deosebire de cea cauzată de lichid în urechea medie.</div></div>
         <div class="gl-item"><div class="gl-term">Limfedem</div><div class="gl-def">Umflarea mâinilor sau a picioarelor din cauza acumulării de limfă. Apare frecvent la nou-născut și de multe ori e primul semn care duce la diagnostic.</div></div>
         <div class="gl-item"><div class="gl-term">DSD <em>diferență de dezvoltare sexuală</em></div><div class="gl-def">Termen-umbrelă pentru situațiile în care dezvoltarea cromozomială, gonadală sau anatomică urmează un traseu atipic. Unele variante ale sindromului Turner intră sub această umbrelă și beneficiază de o echipă specializată.</div></div>
-        <div class="gl-item"><div class="gl-term">Endo-ERN</div><div class="gl-def">Rețeaua europeană de referință pentru boli endocrine rare. Reunește centre acreditate din toată Uniunea Europeană și permite consultul între ele pe cazuri concrete.</div></div>
+        <div class="gl-item"><div class="gl-term">Endo-ERN</div><div class="gl-def">Rețeaua europeană de referință pentru boli endocrine rare. Reunește centre din toată Uniunea Europeană și permite consultul între ele pe cazuri concrete, la cererea medicului curant. E organizată pe grupuri tematice, iar sindromul Turner intră în <a href="https://endo-ern.eu/rare-sex-development-maturation-conditions/" target="_blank" rel="noopener">grupul MTG7</a> <span class="ext" aria-hidden="true">↗</span>, dedicat dezvoltării și maturării sexuale. Un spital poate fi listat pentru un grup tematic și nu pentru altul.</div></div>
         <div class="gl-item"><div class="gl-term">VUS <em>variantă cu semnificație incertă</em></div><div class="gl-def">O modificare genetică găsită la testare, despre care datele actuale nu sunt suficiente ca să spună dacă e sau nu cauza unei probleme. Se reevaluează periodic, pe măsură ce apar date noi.</div></div>
       </div>
     </div>
@@ -1162,7 +1164,7 @@ footer.site .wrap{padding-top:var(--s-5); padding-bottom:var(--s-4);}
       </ul>
       <div class="path-box">
         <h3>A doua opinie, prin rețeaua europeană</h3>
-        <p>Sindromul Turner intră în aria acoperită de Endo-ERN, rețeaua europeană de referință pentru boli endocrine rare. Medicul curant poate deschide un caz în platforma de consult clinic a rețelei și poate primi o opinie de la centre acreditate din alte state membre, fără ca familia să se deplaseze. Detalii în secțiunea <a href="#/resurse" data-link>Centre de referință</a>.</p>
+        <p>Sindromul Turner intră în aria acoperită de Endo-ERN, rețeaua europeană de referință pentru boli endocrine rare. Medicul curant poate solicita o opinie clinică prin mecanismele rețelei, de la centre din alte state membre, fără ca familia să fie nevoită să călătorească pentru prima evaluare internațională. Detalii în secțiunea <a href="#/resurse" data-link>Centre de referință</a>.</p>
       </div>
     </div>
   </section>
@@ -1380,14 +1382,14 @@ footer.site .wrap{padding-top:var(--s-5); padding-bottom:var(--s-4);}
         <span class="kicker">Unde poți cere o a doua opinie</span>
         <h2>Centre de referință, în țară și în Europa</h2>
       </div>
-      <p class="prose">Sindromul Turner face parte din bolile rare acoperite de Endo-ERN, rețeaua europeană de referință pentru afecțiuni endocrine rare. Asta înseamnă că există centre acreditate oficial pentru exact acest tip de caz și un mecanism prin care medicul tău poate cere o opinie de la ele, chiar fără deplasare.</p>
+      <p class="prose">Sindromul Turner face parte din bolile rare acoperite de <a href="https://endo-ern.eu/" target="_blank" rel="noopener">Endo-ERN</a> <span class="ext" aria-hidden="true">↗</span>, rețeaua europeană de referință pentru afecțiuni endocrine rare. Asta înseamnă că există centre acreditate oficial pentru exact acest tip de caz și un mecanism prin care medicul tău poate cere o opinie de la ele, chiar fără deplasare.</p>
 
       <div class="duo" style="margin-top:var(--s-3);">
         <div class="center-card">
           <span class="tag">România</span>
           <h3>Cluj-Napoca — Genetică Medicală</h3>
-          <p class="who">Singurul centru din România afiliat oficial rețelei Endo-ERN, în grupul tematic dedicat dezvoltării și maturării sexuale.</p>
-          <p class="detail">Punctul de intrare firesc pentru confirmarea cariotipului, interpretarea lui și orientarea către restul echipei. Datele de contact ale secției se verifică direct la spital, pentru că programul se poate schimba.</p>
+          <p class="who">Singurul centru din România listat de Endo-ERN pentru grupul tematic MTG7, dedicat dezvoltării și maturării sexuale. România are și alte centre în rețea, dar pe alte grupuri tematice.</p>
+          <p class="detail">Punctul de intrare firesc pentru confirmarea cariotipului, interpretarea lui și orientarea către restul echipei. Datele de contact ale secției se verifică direct la spital, pentru că programul se poate schimba. Lista oficială a centrelor din rețea e publicată de <a href="https://endo-ern.eu/about/reference-centres/" target="_blank" rel="noopener">Endo-ERN</a> <span class="ext" aria-hidden="true">↗</span>.</p>
         </div>
         <div class="center-card">
           <span class="tag">Belgia</span>
@@ -1408,7 +1410,7 @@ footer.site .wrap{padding-top:var(--s-5); padding-bottom:var(--s-4);}
 
       <div class="path-box">
         <h3>Cum ajungi acolo, fără să plătești din buzunar o consultație internațională</h3>
-        <p><b>Consultul prin rețeaua europeană, gratuit și fără deplasare:</b> medicul curant din România poate deschide un caz în platforma de consult clinic a Endo-ERN, iar specialiști din centrele de mai sus dau o a doua opinie pe baza dosarului medical, fără ca familia să călătorească sau să plătească.</p>
+        <p><b>Opinie clinică prin mecanismele Endo-ERN:</b> medicul curant poate solicita o opinie clinică de la centre din rețea, pe baza dosarului medical, fără ca familia să fie nevoită să călătorească pentru prima evaluare internațională. E un mecanism profesional între medici și centre, nu o consultație pe care familia o rezervă direct, iar cererea pleacă întotdeauna de la medicul curant.</p>
         <p><b>Formularul S2, fostul E112:</b> dacă e nevoie de tratament efectiv în alt stat din Uniunea Europeană, care nu poate fi oferit la timp în România, Casa Națională de Asigurări de Sănătate poate aproba decontarea, în anumite condiții. Se solicită înainte de deplasare, prin medicul curant.</p>
         <p>În ambele cazuri, primul pas practic e o discuție cu centrul din Cluj-Napoca sau cu medicul curant, nu un contact direct cu centrul din străinătate.</p>
       </div>
@@ -1425,15 +1427,15 @@ footer.site .wrap{padding-top:var(--s-5); padding-bottom:var(--s-4);}
       <div class="duo" style="margin-top:var(--s-3);">
         <div class="center-card">
           <span class="tag">Statele Unite</span>
-          <h3>Turner Syndrome Society of the United States</h3>
+          <h3><a href="https://www.turnersyndrome.org/" target="_blank" rel="noopener">Turner Syndrome Society of the United States</a> <span class="ext" aria-hidden="true">↗</span></h3>
           <p class="who">Cea mai mare organizație de pacienți dedicată sindromului Turner: ghiduri clinice pentru pacienți și medici, grupuri de sprijin, o conferință anuală cu sute de participanți și un simbol comun, fluturele.</p>
-          <p class="detail">turnersyndrome.org — inclusiv un card de urgență medicală pentru risc cardiac, un model demn de adaptat și la noi.</p>
+          <p class="detail">Are și un card de urgență medicală pentru risc cardiac, un model demn de adaptat și la noi. Materialele sunt în engleză și spaniolă.</p>
         </div>
         <div class="center-card">
           <span class="tag">Marea Britanie</span>
-          <h3>Turner Syndrome Support Society</h3>
-          <p class="who">Organizație britanică axată pe sprijin direct pentru familii: linie telefonică gratuită, materiale informative, întâlniri regionale în Regatul Unit și Irlanda.</p>
-          <p class="detail">tss.org.uk — linia de sprijin funcționează în zilele lucrătoare, la ora Marii Britanii.</p>
+          <h3><a href="https://tss.org.uk/" target="_blank" rel="noopener">Turner Syndrome Support Society</a> <span class="ext" aria-hidden="true">↗</span></h3>
+          <p class="who">Organizație britanică axată pe sprijin direct pentru familii: linie telefonică, materiale informative, întâlniri regionale în Regatul Unit și Irlanda.</p>
+          <p class="detail">Linia de sprijin: 0300 111 7520, de luni până vineri, între 9:00 și 17:00, ora Marii Britanii. Verificat în septembrie 2026.</p>
         </div>
       </div>
       <p class="source-note">Aceste organizații deservesc în primul rând sistemele medicale din Statele Unite și din Regatul Unit, diferite de cel din România. Sunt utile mai ales ca sursă de informare generală și ca model de comunitate, nu ca punct de contact pentru îngrijirea medicală de aici.</p>
@@ -1447,13 +1449,17 @@ footer.site .wrap{padding-top:var(--s-5); padding-bottom:var(--s-4);}
         <h2>Ghiduri și studii pe care le folosim</h2>
       </div>
       <ul class="plain">
-        <li><b>Ghidul internațional de consens, 2024.</b> Gravholt CH și colab., <i>Clinical practice guidelines for the care of girls and women with Turner syndrome: Proceedings from the 2023 Aarhus International Turner Syndrome Meeting</i>, European Journal of Endocrinology, 2024;190(6):G53–G151. Sursa principală pentru aproape toate cifrele de pe site.</li>
-        <li><b>Ghidul clinic anterior, ediția 2016–2017.</b> Rămâne util ca termen de comparație, dar a fost înlocuit de versiunea din 2024.</li>
-        <li><b>Turner Syndrome: Lifelong Guidance and Support.</b> Materialul pentru pacienți publicat de organizația britanică de sprijin, ediția a doua.</li>
-        <li><b>Ghidul național francez pentru diagnostic și îngrijire</b> în sindromul Turner, ca exemplu de protocol național european.</li>
-        <li><b>Literatura pe sănătatea reproductivă</b> în sindromul Turner, pentru partea de pubertate, fertilitate și sarcină.</li>
+        <li><b><a href="https://academic.oup.com/ejendo/article/190/6/G53/7674241" target="_blank" rel="noopener">Ghidul internațional de consens, 2024</a> <span class="ext" aria-hidden="true">↗</span></b> Gravholt CH și colab., <i>Clinical practice guidelines for the care of girls and women with Turner syndrome: Proceedings from the 2023 Aarhus International Turner Syndrome Meeting</i>, European Journal of Endocrinology, 2024;190(6):G53–G151. Sursa principală pentru aproape toate cifrele de pe site. Text integral, acces liber, în engleză.</li>
+        <li><b><a href="https://academic.oup.com/ejendo/article/177/3/G1/6655349" target="_blank" rel="noopener">Ghidul clinic anterior, ediția 2017</a> <span class="ext" aria-hidden="true">↗</span></b> Proceedings from the 2016 Cincinnati International Turner Syndrome Meeting, European Journal of Endocrinology, 2017;177(3):G1–G70. Rămâne util ca termen de comparație, dar a fost înlocuit de versiunea din 2024.</li>
+        <li><b><a href="https://endo-ern.eu/wp-content/uploads/2020/02/1.c_TSSS-Turner-Syndrome-lifelong-guidance-and-support-2nd-edition_GB.pdf" target="_blank" rel="noopener">Turner Syndrome: Lifelong Guidance and Support</a> <span class="ext" aria-hidden="true">↗</span></b> Materialul pentru pacienți publicat de organizația britanică de sprijin, ediția a doua, pus la dispoziție în format PDF de rețeaua europeană Endo-ERN. Scris pentru familii, nu pentru medici.</li>
+        <li><b><a href="https://www.has-sante.fr/upload/docs/application/pdf/2021-11/pnds_turner_29_10.pdf" target="_blank" rel="noopener">Protocolul național francez de diagnostic și îngrijire</a> <span class="ext" aria-hidden="true">↗</span></b> Publicat de Haute Autorité de Santé, ca exemplu de protocol național european. Versiunea în engleză a fost publicată în <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9277788/" target="_blank" rel="noopener">Orphanet Journal of Rare Diseases</a> <span class="ext" aria-hidden="true">↗</span>.</li>
+        <li><b>Literatura pe sănătatea reproductivă</b> în sindromul Turner, pentru partea de pubertate, fertilitate și sarcină. Sunt articole de sinteză din reviste de specialitate, citate punctual acolo unde sunt folosite.</li>
         <li><b>Studii individuale</b> din reviste cu recenzie de specialitate, folosite punctual, mai ales pe subiectele unde ghidul lasă decizia deschisă, cum e momentul gonadectomiei în variantele cu material de cromozom Y.</li>
       </ul>
+      <div class="callout calm" style="margin-top:var(--s-3);">
+        <h3>De ce trimitem la sursă și nu găzduim copii</h3>
+        <p>Ghidurile și articolele au autori și editori care păstrează drepturile asupra lor. Linkurile de mai sus duc la variantele publicate oficial, ca să citești mereu ediția curentă și corect atribuită. Unele se deschid liber, altele cer abonament sau plată la editură. Dacă un link nu mai funcționează, scrie-ne și îl actualizăm.</p>
+      </div>
       <p class="source-note">Când o afirmație de pe site nu are o sursă pe care să o putem arăta, preferăm să scriem că nu se știe, în loc să completăm cu presupuneri. Dacă găsești o eroare, scrie-ne și o corectăm.</p>
     </div>
   </section>
@@ -1489,7 +1495,6 @@ footer.site .wrap{padding-top:var(--s-5); padding-bottom:var(--s-4);}
         <div>
           <div class="callout calm">
             <h3>Scrie-ne pe e-mail</h3>
-            <!-- TODO: înlocuiește adresa după ce se cumpără domeniul și se configurează căsuța. -->
             <p style="font-size:1.05rem; margin-bottom:12px;"><a href="mailto:contact@turnerromania.ro">contact@turnerromania.ro</a></p>
             <p>E singura cale de contact deocamdată. Mesajele le citește o persoană, nu un serviciu automat, deci răspunsul poate dura câteva zile.</p>
           </div>
